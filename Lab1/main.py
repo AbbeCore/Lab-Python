@@ -16,6 +16,7 @@ print(e)  # 3800.0
 print(float('3.2e4'))  # 32000.0
 print(float('3.2e-4'))  # 0.00032
 
+
 print(1, 'ahmed', 2, 'ali', sep='*', end='\t')
 print(3, 'ali')  # 1*ahmed*2*ali	3 ali
 
