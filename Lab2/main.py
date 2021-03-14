@@ -4,16 +4,17 @@ m = eval(input('enter meter : '))
 cm = m * 100
 print('cm = ', cm)
 
+# 1 USD = 1450 IQD
 # Convert from IQD to USD
 iqd = eval(input('\n\nIQD : '))
-usd = iqd / 145
+usd = iqd / 1450
 print('USD : ', usd)
 print('USD with Round 2', round(usd, 2))  # 0,##
 print("USD with Round 3: %.3f" % float(usd))  # 0,###
 
 # Convert from USD to IQD
 usd = eval(input('\n\nUSD :'))
-iqd = usd * 145
+iqd = usd * 1.45
 print('IQD : ', iqd)
 
 # Convert Day to Month
